@@ -1,0 +1,33 @@
+{
+  "name": "webpack-basic-boilerplate",
+  "version": "1.0.0",
+  "description": "webpack simple boilerplate starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-cli serve",
+    "build": "webpack --mode production",
+    "serve": "serve dist -p 3000",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/younes-barhouni/webpack-basic-boilerplate.git"
+  },
+  "keywords": [
+    "webpack",
+    "starter",
+    "boilerplate"
+  ],
+  "author": "Younes barhouni <younesbarhouni@live.com> (https://github.com/younes-barhouni)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/younes-barhouni/webpack-basic-boilerplate/issues"
+  },
+  "homepage": "https://github.com/younes-barhouni/webpack-basic-boilerplate#readme",
+  "devDependencies": {
+    "serve": "^12.0.0",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
